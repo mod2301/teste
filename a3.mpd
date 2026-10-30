@@ -9,9 +9,9 @@
             <SegmentTemplate duration="192000" timescale="48000" media="a3-$RepresentationID$-scale=48000-$Number$.m4s" initialization="a3-$RepresentationID$-scale=48000-init.mp4"/>
             <Representation id="mp4a_96000_eng=9" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2"/>
         </AdaptationSet>
-        <AdaptationSet mimeType="application/mp4" contentType="text" lang="es">
+	<AdaptationSet mimeType="audio/mp4" contentType="audio" lang="en">
             <SegmentTemplate duration="192000" timescale="48000" media="a3-$RepresentationID$-scale=48000-$Number$.m4s" initialization="a3-$RepresentationID$-scale=48000-init.mp4"/>
-            <Representation id="textstream_spa=0" bandwidth="0" codecs="stpp"/>
+            <Representation id="mp4a_96000_eng=9" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2"/>
         </AdaptationSet>
         <AdaptationSet mimeType="video/mp4" contentType="video">
             <SegmentTemplate duration="100" timescale="25" media="a3-$RepresentationID$-scale=25-$Number$.m4s" initialization="a3-$RepresentationID$-scale=25-init.mp4"/>
