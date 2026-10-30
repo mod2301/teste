@@ -9,10 +9,6 @@
             <SegmentTemplate duration="192000" timescale="48000" media="a3-$RepresentationID$-scale=48000-$Number$.m4s" initialization="a3-$RepresentationID$-scale=48000-init.mp4"/>
             <Representation id="mp4a_96000_eng=9" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2"/>
         </AdaptationSet>
-		<AdaptationSet mimeType="audio/mp4" contentType="audio" lang="en">
-            <SegmentTemplate duration="192000" timescale="48000" media="a3-$RepresentationID$-scale=48000-$Number$.m4s" initialization="a3-$RepresentationID$-scale=48000-init.mp4"/>
-            <Representation id="mp4a_96000_eng=9" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2"/>
-        </AdaptationSet>
         <AdaptationSet mimeType="video/mp4" contentType="video">
             <SegmentTemplate duration="100" timescale="25" media="a3-$RepresentationID$-scale=25-$Number$.m4s" initialization="a3-$RepresentationID$-scale=25-init.mp4"/>
             <Representation id="avc1_1000000=14" width="850" height="480" bandwidth="1000000" codecs="avc1.4d401f"/>
